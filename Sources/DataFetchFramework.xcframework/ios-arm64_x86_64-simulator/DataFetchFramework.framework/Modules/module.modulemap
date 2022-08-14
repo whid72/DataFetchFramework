@@ -1,0 +1,11 @@
+framework module DataFetchFramework {
+  umbrella header "DataFetchFramework.h"
+
+  export *
+  module * { export * }
+}
+
+module DataFetchFramework.Swift {
+    header "DataFetchFramework-Swift.h"
+    requires objc
+}
